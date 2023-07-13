@@ -1,0 +1,13 @@
+https://api.open-meteo.com/v1/forecast?latitude=51.51"&"longitude=-0.13"&"hourly=temperature_2m,relativehumidity_2m,apparent_temperature,precipitation_probability,precipitation,rain,showers,snowfall,snow_depth,windgusts_10m,uv_index,uv_index_clear_sky"&"daily=weathercode,temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min,sunrise,sunset,uv_index_max,uv_index_clear_sky_max"&"current_weather=true"&"timezone=Europe%2FLondon
+
+ORIGINAL
+https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,relativehumidity_2m,apparent_temperature,precipitation_probability,precipitation,rain,showers,snowfall,snow_depth,windgusts_10m,uv_index,uv_index_clear_sky&daily=weathercode,temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min,sunrise,sunset,uv_index_max,uv_index_clear_sky_max&current_weather=true&timezone=Europe%2FLondon
+
+LINUX 
+https://api.open-meteo.com/v1/forecast\?latitude\=51.51\&longitude\=-0.13\&hourly\=temperature_2m,relativehumidity_2m,apparent_temperature,precipitation_probability,precipitation,rain,showers,snowfall,snow_depth,windgusts_10m,uv_index,uv_index_clear_sky\&daily\=weathercode,temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min,sunrise,sunset,uv_index_max,uv_index_clear_sky_max\&current_weather\=true\&timezone\=Europe%2FLondon
+
+
+
+https://api.open-meteo.com/v1/forecast%3Flatitude%253D51.51%2526longitude%253D-0.13%2526hourly%253Dtemperature_2m%252Crelativehumidity_2m%252Capparent_temperature%252Cprecipitation_probability%252Cprecipitation%252Crain%252Cshowers%252Csnowfall%252Csnow_depth%252Cwindgusts_10m%252Cuv_index%252Cuv_index_clear_sky%2526daily%253Dweathercode%252Ctemperature_2m_max%252Ctemperature_2m_min%252Capparent_temperature_max%252Capparent_temperature_min%252Csunrise%252Csunset%252Cuv_index_max%252Cuv_index_clear_sky_max%2526current_weather%253Dtrue%2526timezone%253DEurope%25252FLondon%250A
+
+stepzen import curl --request GET 'https://api.open-meteo.com/v1/forecast?latitude=51.51"&"longitude=-0.13"&"hourly=temperature_2m,relativehumidity_2m,apparent_temperature,precipitation_probability,precipitation,rain,showers,snowfall,snow_depth,windgusts_10m,uv_index,uv_index_clear_sky"&"daily=weathercode,temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min,sunrise,sunset,uv_index_max,uv_index_clear_sky_max"&"current_weather=true"&"timezone=Europe%2FLondon'  --query-name=rootQuery --query-type=Root --name=rootQuery  
