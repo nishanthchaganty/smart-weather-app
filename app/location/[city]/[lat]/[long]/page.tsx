@@ -76,7 +76,7 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
           </div>
           <div className="overflow-hidden text-xl font-mono">
             {/* <CalloutCard message={content} /> */}
-            <CalloutCard
+            {/* <CalloutCard
               message={`Good evening everyone and welcome to Nishanth Studios! 
             I'm your weather news presenter and I have some exciting weather data to share with you today. 
             Let's dive right in! Today, in the beautiful city of Banaj, we are experiencing a delightful 
@@ -90,10 +90,10 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
             without any worries of getting wet. Humidity levels will vary throughout the day, starting at a high of 93% in the morning and 
             gradually decreasing to around 87% in the evening. So, it might feel a bit muggy in the morning, but things will get more comfortable 
             as the day progresses. For all you sun worshippers, we have an update on the UV index. Currently, we have a UV index of 0, but as the day 
-            progresses, it will rise to a moderate level of 8.1. So, don't forget to wear your sunscreen and protect your skin from those harmful rays. That's all for today's weather summary from Nishanth Studios! Remember to stay hydrated, wear appropriate clothing, and enjoy the day. Stay tuned for more exciting weather updates right here. Have a fantastic day ahead!`}
-            />
+            progresses, it will rise to a moderate level of 8.1. So, don't forget to wear your sunscreen and protect your skin from those harmful rays. That's all for today's weather summary from Nishanth Studios! Remember to stay hydrated, wear appropriate clothing, and enjoy the day. Stay tuned for more exciting weather updates right here. Have a fantastic day ahead!`} */}
+            {/* /> */}
             {
-              // <CalloutCard message="This is where the GPT summary usually goes....." />
+              <CalloutCard message="This is where the GPT summary usually goes....." />
             }
           </div>
 
